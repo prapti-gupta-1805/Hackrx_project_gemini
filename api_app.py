@@ -18,7 +18,7 @@ load_dotenv()
 app = FastAPI(title="Enhanced PDF QA API", description="Hackathon PDF Question Answering API with Advanced Features")
 security = HTTPBearer()
 
-API_KEY = os.getenv("API_KEY", "hackrx-api-key-2025")
+API_KEY = os.getenv("API_KEY", "d8196b00ef527200a631f1722c7c1ab23be5ab3edd5ff59f8dbaf0e4efb34867")
 
 class QuestionRequest(BaseModel):
     documents: str
