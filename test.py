@@ -50,7 +50,7 @@ def test_pdf_access():
         return False
 
 def test_webhook():
-    webhook_url = "https://hackrx-hackathon-project25.onrender.com/hackrx/run"
+    webhook_url = "https://hackrx-project-gemini.onrender.com/hackrx/run"
     
     headers = {
         "Authorization": "Bearer hackrx-api-key-2025",
