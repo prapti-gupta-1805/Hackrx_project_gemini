@@ -192,7 +192,7 @@ def test_webhook():
         print(f"   ERROR: {e}")
         return False
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     print("Starting comprehensive webhook test...")
     success = test_webhook()
     
