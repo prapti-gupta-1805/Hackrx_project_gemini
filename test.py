@@ -53,7 +53,7 @@ def test_webhook():
     webhook_url = "https://hackrx-project-gemini.onrender.com/hackrx/run"
     
     headers = {
-        "Authorization": "Bearer hackrx-api-key-2025",
+        "Authorization": "Bearer d8196b00ef527200a631f1722c7c1ab23be5ab3edd5ff59f8dbaf0e4efb34867",
         "Content-Type": "application/json",
         "Accept": "application/json"
     }
