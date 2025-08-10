@@ -1,0 +1,8 @@
+fastapi
+uvicorn[standard]
+requests
+python-dotenv
+PyPDF2
+google-generativeai
+pydantic
+httpx
